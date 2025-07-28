@@ -60,7 +60,7 @@ print(it_companies)
 
 # 14. Join the it_companies with a string '#; '
 '#; '.join(it_companies)
-print(it_companies)
+print('#; '.join(it_companies))
 
 # 15. Check if a certain company exists in the it_companies list.
 "Apple" in it_companies
@@ -79,11 +79,11 @@ first_three_comp = it_companies[0:3]
 print(first_three_comp)
 
 # 19.Slice out the last 3 companies from the list
-last_three_comp = it_companies[-1:-3]
+last_three_comp = it_companies[-3:]
 print(last_three_comp)
 
 # 20.Slice out the middle IT company or companies from the list
-midle_it_comp = it_companies[len(it_companies)//2-1]
+midle_it_comp = it_companies[len(it_companies)//2]
 print(midle_it_comp)
 
 # 21. Remove the first IT company from the list
@@ -106,7 +106,7 @@ print(it_companies)
 
 
 # 25. Destroy the IT companies list
-it_companies.clear()
+del it_companies
 print(it_companies)
 
 # 26. Join the following lists:
