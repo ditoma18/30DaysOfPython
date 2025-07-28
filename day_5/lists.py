@@ -107,7 +107,6 @@ print(it_companies)
 
 # 25. Destroy the IT companies list
 del it_companies
-print(it_companies)
 
 # 26. Join the following lists:
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
